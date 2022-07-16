@@ -7,10 +7,11 @@ namespace QuorterBackEnd.ViewComponents.Default
 {
     public class _TestimonialPartial : ViewComponent
     {
-       
+        TestimonialManager testimonial = new TestimonialManager(new EfTestimonialDal());
         public IViewComponentResult Invoke()
         {
-            return View();
+            var values = testimonial.TGetList();
+            return View(values);
         }
     }
 }

@@ -23,6 +23,7 @@
     <None Remove="Views\Shared\Components\_UtilitizeCard\" />
     <None Remove="Views\Shared\Components\_UtilitizeMobile\" />
     <None Remove="Views\Shared\Components\_CounterPartial\" />
+    <None Remove="Views\Shop\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -43,6 +44,7 @@
     <Folder Include="Views\Shared\Components\_UtilitizeCard\" />
     <Folder Include="Views\Shared\Components\_UtilitizeMobile\" />
     <Folder Include="Views\Shared\Components\_CounterPartial\" />
+    <Folder Include="Views\Shop\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
