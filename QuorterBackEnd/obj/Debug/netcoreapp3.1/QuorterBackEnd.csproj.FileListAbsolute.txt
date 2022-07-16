@@ -211,3 +211,4 @@
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/QuorterBackEnd.pdb
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/QuorterBackEnd.genruntimeconfig.cache
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Index.cshtml.g.cs
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shop/ShopDetails.cshtml.g.cs

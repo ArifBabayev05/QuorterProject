@@ -14,20 +14,27 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "/Users/babayev_/Desktop/Quorter/QuorterBackEnd/Views/_ViewImports.cshtml"
-using QuorterBackEnd;
+using DataEntities.Concrete;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "/Users/babayev_/Desktop/Quorter/QuorterBackEnd/Views/_ViewImports.cshtml"
+using QuorterBackEnd;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/Users/babayev_/Desktop/Quorter/QuorterBackEnd/Views/_ViewImports.cshtml"
 using QuorterBackEnd.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"41a3394f017f264e0e390e02476000351a37781e", @"/Views/Shared/Components/_FindNowPartial/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ca4694cfb912f4e2d7d95ceadc63ee8b31461792", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"406e341eedf17b8298e0c20fed11e68805e0d2e9", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components__FindNowPartial_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -78,9 +85,9 @@ using QuorterBackEnd.Models;
                         <div class=""tab-pane fade active show"" id=""ltn__form_tab_1_1"">
                             <div class=""car-dealer-form-inner"">
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e5265", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e5441", async() => {
                 WriteLiteral("\n                                    <div class=\"ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-car---- col-lg-3 col-md-6\">\n                                        <select class=\"nice-select\">\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e5771", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e5947", async() => {
                     WriteLiteral("Choose Area");
                 }
                 );
@@ -94,7 +101,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e6818", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e6994", async() => {
                     WriteLiteral("chicago");
                 }
                 );
@@ -108,7 +115,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e7861", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e8037", async() => {
                     WriteLiteral("London");
                 }
                 );
@@ -122,7 +129,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e8903", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e9079", async() => {
                     WriteLiteral("Los Angeles");
                 }
                 );
@@ -136,7 +143,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e9950", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e10126", async() => {
                     WriteLiteral("New York");
                 }
                 );
@@ -150,7 +157,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e10994", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e11171", async() => {
                     WriteLiteral("New Jersey");
                 }
                 );
@@ -169,7 +176,7 @@ using QuorterBackEnd.Models;
                                     <div class=""ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-meter---- col-lg-3 col-md-6"">
                                         <select class=""nice-select"">
                                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e12342", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e12519", async() => {
                     WriteLiteral("Property Status");
                 }
                 );
@@ -183,7 +190,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e13394", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e13571", async() => {
                     WriteLiteral("Open house");
                 }
                 );
@@ -197,7 +204,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e14441", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e14618", async() => {
                     WriteLiteral("Rent");
                 }
                 );
@@ -211,7 +218,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e15482", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e15659", async() => {
                     WriteLiteral("Sale");
                 }
                 );
@@ -225,7 +232,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e16523", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e16700", async() => {
                     WriteLiteral("Sold");
                 }
                 );
@@ -244,7 +251,7 @@ using QuorterBackEnd.Models;
                                     <div class=""ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-calendar---- col-lg-3 col-md-6"">
                                         <select class=""nice-select"">
                                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e17868", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e18045", async() => {
                     WriteLiteral("Property Type");
                 }
                 );
@@ -258,7 +265,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e18918", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e19095", async() => {
                     WriteLiteral("Apartment");
                 }
                 );
@@ -272,7 +279,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e19964", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e20141", async() => {
                     WriteLiteral("Co-op");
                 }
                 );
@@ -286,7 +293,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e21006", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e21183", async() => {
                     WriteLiteral("Condo");
                 }
                 );
@@ -300,7 +307,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e22048", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e22225", async() => {
                     WriteLiteral("Single Family Home");
                 }
                 );
@@ -339,9 +346,9 @@ using QuorterBackEnd.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n                            </div>\n                        </div>\n                        <div class=\"tab-pane fade\" id=\"ltn__form_tab_1_2\">\n                            <div class=\"car-dealer-form-inner\">\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e25163", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e25340", async() => {
                 WriteLiteral("\n                                    <div class=\"ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-car---- col-lg-3 col-md-6\">\n                                        <select class=\"nice-select\">\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e25670", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e25847", async() => {
                     WriteLiteral("Choose Area");
                 }
                 );
@@ -355,7 +362,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e26718", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e26895", async() => {
                     WriteLiteral("chicago");
                 }
                 );
@@ -369,7 +376,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e27762", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e27939", async() => {
                     WriteLiteral("London");
                 }
                 );
@@ -383,7 +390,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e28805", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e28982", async() => {
                     WriteLiteral("Los Angeles");
                 }
                 );
@@ -397,7 +404,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e29853", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e30030", async() => {
                     WriteLiteral("New York");
                 }
                 );
@@ -411,7 +418,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e30898", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e31075", async() => {
                     WriteLiteral("New Jersey");
                 }
                 );
@@ -430,7 +437,7 @@ using QuorterBackEnd.Models;
                                     <div class=""ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-meter---- col-lg-3 col-md-6"">
                                         <select class=""nice-select"">
                                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e32246", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e32423", async() => {
                     WriteLiteral("Property Status");
                 }
                 );
@@ -444,7 +451,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e33298", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e33475", async() => {
                     WriteLiteral("Open house");
                 }
                 );
@@ -458,7 +465,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e34345", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e34522", async() => {
                     WriteLiteral("Rent");
                 }
                 );
@@ -472,7 +479,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e35386", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e35563", async() => {
                     WriteLiteral("Sale");
                 }
                 );
@@ -486,7 +493,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e36427", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e36604", async() => {
                     WriteLiteral("Sold");
                 }
                 );
@@ -505,7 +512,7 @@ using QuorterBackEnd.Models;
                                     <div class=""ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-calendar---- col-lg-3 col-md-6"">
                                         <select class=""nice-select"">
                                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e37772", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e37949", async() => {
                     WriteLiteral("Property Type");
                 }
                 );
@@ -519,7 +526,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e38822", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e38999", async() => {
                     WriteLiteral("Apartment");
                 }
                 );
@@ -533,7 +540,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e39868", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e40045", async() => {
                     WriteLiteral("Co-op");
                 }
                 );
@@ -547,7 +554,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e40910", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e41087", async() => {
                     WriteLiteral("Condo");
                 }
                 );
@@ -561,7 +568,7 @@ using QuorterBackEnd.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e41952", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41a3394f017f264e0e390e02476000351a37781e42129", async() => {
                     WriteLiteral("Single Family Home");
                 }
                 );
