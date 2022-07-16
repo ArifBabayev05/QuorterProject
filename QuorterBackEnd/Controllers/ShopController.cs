@@ -24,7 +24,8 @@ namespace QuorterBackEnd.Controllers
         [HttpGet]
         public IActionResult ShopDetails(int id)
         {
-            return View();
+            var values = _featureManager.TGetById(id);
+            return View(values);
         }
 
         [HttpPost ]

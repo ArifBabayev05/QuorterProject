@@ -10,6 +10,7 @@ namespace DAL.Abstract
         void Update(T t);
 
         List<T> GetList();
+        T GetById(int id);
     }
 }
 
