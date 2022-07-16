@@ -3,27 +3,42 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataEntities/Concrete/Feature2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QuorterBackEnd/Views/Shared/Components/_FeaturePartial/Default.cshtml">
     <Files>
       <File FileName="DAL/Concrete/Context.cs" Line="16" Column="40" />
       <File FileName="DataEntities/Concrete/Testimonial.cs" Line="12" Column="9" />
       <File FileName="QuorterBackEnd/Controllers/ShopController.cs" Line="1" Column="1" />
       <File FileName="QuorterBackEnd/Views/_ViewImports.cshtml" Line="1" Column="1" />
       <File FileName="QuorterBackEnd/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="QuorterBackEnd/Views/Default/Index.cshtml" Line="1" Column="1" />
+      <File FileName="QuorterBackEnd/Views/Default/Index.cshtml" Line="28" Column="1" />
       <File FileName="QuorterBackEnd/Views/Shop/Index.cshtml" Line="2" Column="1" />
       <File FileName="QuorterBackEnd/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="QuorterBackEnd/Controllers/DefaultController.cs" Line="1" Column="1" />
       <File FileName="DAL/Abstract/IFeatureDal.cs" Line="6" Column="56" />
       <File FileName="Business/Abstract/IPropertyService.cs" Line="1" Column="1" />
       <File FileName="Business/Abstract/IFeatureService.cs" Line="6" Column="64" />
-      <File FileName="Business/Concrete/FeatureManager.cs" Line="28" Column="16" />
+      <File FileName="Business/Concrete/FeatureManager.cs" Line="35" Column="1" />
       <File FileName="Business/Concrete/PropertyManager.cs" Line="1" Column="1" />
       <File FileName="Business/Concrete/MainFocusManager.cs" Line="1" Column="1" />
-      <File FileName="DataEntities/Concrete/Feature.cs" Line="8" Column="11" />
       <File FileName="DAL/EntityFramework/EfFeatureDal.cs" Line="8" Column="59" />
-      <File FileName="DAL/Repository/GenericRepository.cs" Line="21" Column="40" />
+      <File FileName="DAL/Repository/GenericRepository.cs" Line="31" Column="27" />
       <File FileName="DataEntities/Concrete/MainFocus.cs" Line="1" Column="1" />
+      <File FileName="DataEntities/Concrete/Feature2.cs" Line="25" Column="2" />
+      <File FileName="Business/Concrete/TestimonialManager.cs" Line="1" Column="1" />
+      <File FileName="Business/Abstract/ITestimonialService.cs" Line="1" Column="1" />
+      <File FileName="DAL/Abstract/ITestimonialDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/EntityFramework/EfTestimonialDal.cs" Line="1" Column="1" />
+      <File FileName="QuorterBackEnd/ViewComponents/Default/_TestimonialPartial.cs" Line="15" Column="10" />
+      <File FileName="QuorterBackEnd/ViewComponents/Default/_FeaturePartial.cs" Line="13" Column="1" />
+      <File FileName="QuorterBackEnd/Views/Shared/Components/_FeaturePartial/Default.cshtml" Line="28" Column="73" />
+      <File FileName="DAL/Abstract/IAboutDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/Abstract/IGenericDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/Abstract/IMainFocusDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/Abstract/INewsletterDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/EntityFramework/EfContactDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/EntityFramework/EfMainFocusDal.cs" Line="1" Column="1" />
+      <File FileName="DataEntities/Concrete/About.cs" Line="1" Column="1" />
+      <File FileName="DataEntities/Concrete/Newsletter.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -41,9 +56,7 @@
               <Node name="Repository" expanded="True" />
             </Node>
             <Node name="DataEntities" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="Feature2.cs" selected="True" />
-              </Node>
+              <Node name="Concrete" expanded="True" />
             </Node>
             <Node name="QuorterBackEnd" expanded="True">
               <Node name="Controllers" expanded="True" />
@@ -52,8 +65,17 @@
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Default" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="_FeaturePartial" expanded="True" />
+                  </Node>
+                </Node>
                 <Node name="Shop" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True">
+                  <Node name="uploads" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
