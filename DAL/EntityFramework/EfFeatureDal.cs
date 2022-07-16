@@ -5,7 +5,7 @@ using DataEntities.Concrete;
 
 namespace DAL.EntityFramework
 {
-    public class EfFeatureDal : GenericRepository<Feature>, IFeatureDal
+    public class EfFeatureDal : GenericRepository<Feature2>, IFeatureDal
     {
        
     }

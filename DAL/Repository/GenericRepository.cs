@@ -19,7 +19,6 @@ namespace DAL.Repository
         {
             using var c = new Context();
             return c.Set<T>().ToList();
-
         }
 
         public void Insert(T t)
