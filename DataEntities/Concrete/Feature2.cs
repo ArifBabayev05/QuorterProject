@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace DataEntities.Concrete
@@ -54,6 +55,7 @@ namespace DataEntities.Concrete
         public string AuthorImage { get; set; }
         public string AuthorDesc { get; set; }
 
+        public List<CommentModel> CommentModels { get; set; }
 
 
 
