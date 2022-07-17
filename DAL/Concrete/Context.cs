@@ -19,7 +19,9 @@ namespace DAL.Concrete
         public DbSet<Property> Properties { get; set; }
         public DbSet<Team> Teams{ get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
-        
+
+        public DbSet<CommentModel> CommentModels { get; set; }
+
 
     }
 }
