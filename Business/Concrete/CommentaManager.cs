@@ -16,7 +16,7 @@ namespace Business.Concrete
         }
         public void TAdd(CommentModel t)
         {
-            throw new NotImplementedException();
+            _commentaDal.Insert(t);
         }
 
         public void TDelete(CommentModel t)
