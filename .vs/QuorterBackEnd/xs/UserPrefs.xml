@@ -1,21 +1,19 @@
 ﻿<Properties StartupConfiguration="{73B10379-1501-4F5D-9940-85767F5F99E0}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.QuorterBackEnd PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/CommentaManager.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QuorterBackEnd/Controllers/CommentController.cshtml">
     <Files>
-      <File FileName="Business/Concrete/CommentaManager.cs" Line="39" Column="33" />
-      <File FileName="DAL/Abstract/IAboutDal.cs" Line="6" Column="52" />
-      <File FileName="DAL/Concrete/Context.cs" Line="1" Column="1" />
-      <File FileName="DAL/Abstract/IContactDal.cs" Line="1" Column="1" />
-      <File FileName="DAL/Abstract/ICommentaDal.cs" Line="8" Column="55" />
-      <File FileName="DataEntities/Concrete/CommentModel.cs" Line="6" Column="18" />
-      <File FileName="Business/Abstract/ICommentaService.cs" Line="10" Column="1" />
-      <File FileName="DAL/Abstract/IFeatureDal.cs" Line="1" Column="1" />
-      <File FileName="DAL/Abstract/IGenericDal.cs" Line="16" Column="9" />
-      <File FileName="DAL/Abstract/IMainFocusDal.cs" Line="1" Column="1" />
-      <File FileName="DAL/EntityFramework/EfPropertyDal.cs" Line="1" Column="1" />
-      <File FileName="DAL/EntityFramework/EfTestimonialDal.cs" Line="1" Column="1" />
+      <File FileName="QuorterBackEnd/ViewComponents/Commenta/_AddCommenta.cs" Line="10" Column="12" IsPinned="True" />
+      <File FileName="QuorterBackEnd/Controllers/CommentController.cs" Line="22" Column="1" IsPinned="True" />
+      <File FileName="QuorterBackEnd/Views/Default/Index.cshtml" Line="1" Column="1" />
+      <File FileName="QuorterBackEnd/Views/Shared/Components/_AddCommenta/Default.cshtml" Line="18" Column="4" />
+      <File FileName="QuorterBackEnd/Views/Shop/ShopDetails.cshtml" Line="621" Column="27" />
+      <File FileName="QuorterBackEnd/Views/Comment/Index.cshtml" Line="3" Column="67" />
+      <File FileName="QuorterBackEnd/Views/Shop/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Business/Abstract/IGenericService.cs" Line="8" Column="14" />
+      <File FileName="DAL/Abstract/IGenericDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/Repository/GenericRepository.cs" Line="41" Column="29" />
+      <File FileName="QuorterBackEnd/Controllers/ShopController.cs" Line="1" Column="1" />
+      <File FileName="QuorterBackEnd/ViewComponents/Commenta/_CommentaList.cs" Line="13" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,9 +21,7 @@
           <Node name="QuorterBackEnd" expanded="True">
             <Node name="Business" expanded="True">
               <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True">
-                <Node name="CommentaManager.cs" selected="True" />
-              </Node>
+              <Node name="Concrete" expanded="True" />
             </Node>
             <Node name="DAL" expanded="True">
               <Node name="Abstract" expanded="True" />
@@ -42,6 +38,9 @@
                 <Node name="Commenta" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
+                <Node name="Comment" expanded="True" />
+                <Node name="Default" expanded="True" />
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True">
                   <Node name="Components" expanded="True">
                     <Node name="_AddCommenta" expanded="True" />
@@ -49,6 +48,11 @@
                   </Node>
                 </Node>
                 <Node name="Shop" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True">
+                  <Node name="uploads" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -59,8 +63,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.QuorterBackEnd PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

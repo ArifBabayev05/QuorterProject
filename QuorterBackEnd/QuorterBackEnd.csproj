@@ -26,8 +26,9 @@
     <None Remove="Views\Shop\" />
     <None Remove="ViewComponents\Commenta\" />
     <None Remove="Views\Shared\Components\_CommentaList\" />
-    <None Remove="Views\Shared\Components\_AddCommenta\" />
     <None Remove="Views\Comment\" />
+    <None Remove="Microsoft.AspNetCore.Identity" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -51,7 +52,6 @@
     <Folder Include="Views\Shop\" />
     <Folder Include="ViewComponents\Commenta\" />
     <Folder Include="Views\Shared\Components\_CommentaList\" />
-    <Folder Include="Views\Shared\Components\_AddCommenta\" />
     <Folder Include="Views\Comment\" />
   </ItemGroup>
   <ItemGroup>
@@ -64,5 +64,9 @@
     <ProjectReference Include="..\DataEntities\DataEntities.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.26" />
   </ItemGroup>
 </Project>

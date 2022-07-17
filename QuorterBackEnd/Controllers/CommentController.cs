@@ -21,13 +21,15 @@ namespace QuorterBackEnd.Controllers
         }
 
         [HttpPost]
-        public PartialViewResult AddComment(CommentModel p)
+        public IActionResult AddComment(CommentModel p)
         {
             p.CommentDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             p.CommentState = true;
+            
             commentaManager.TAdd(p);
-            return PartialView();
+            return RedirectToAction("Index", "Shop");
         }
     }
 }
+
 
