@@ -214,3 +214,8 @@
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/QuorterBackEnd.pdb
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/QuorterBackEnd.genruntimeconfig.cache
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Comment/AddComment.cshtml.g.cs
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
