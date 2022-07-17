@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace DAL.Abstract
 {
@@ -11,6 +12,8 @@ namespace DAL.Abstract
 
         List<T> GetList();
         T GetById(int id);
+
+        List<T> GetListByFilter(Expression<Func<T, bool>> filter);
     }
 }
 

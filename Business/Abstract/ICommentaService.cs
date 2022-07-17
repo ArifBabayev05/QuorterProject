@@ -1,8 +1,8 @@
 ﻿using System;
 namespace Business.Abstract
 {
-    public interface ICommentaService
-    {
-    }
+	public interface ICommentaService
+	{
+	}
 }
 

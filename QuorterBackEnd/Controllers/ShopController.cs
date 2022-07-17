@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,6 +24,7 @@ namespace QuorterBackEnd.Controllers
         [HttpGet]
         public IActionResult ShopDetails(int id)
         {
+            ViewBag.i = id;
             var values = _featureManager.TGetById(id);
             return View(values);
         }

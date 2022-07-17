@@ -2,28 +2,54 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.QuorterBackEnd PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataEntities/Concrete/Feature2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/CommentaManager.cs">
     <Files>
-      <File FileName="DataEntities/Concrete/Feature2.cs" Line="59" Column="1" />
-      <File FileName="DataEntities/Concrete/Commenta.cs" Line="28" Column="1" />
-      <File FileName="DAL/Concrete/Context.cs" Line="31" Column="1" />
-      <File FileName="DataEntities/Concrete/MainFocus.cs" Line="1" Column="1" />
+      <File FileName="Business/Concrete/CommentaManager.cs" Line="39" Column="33" />
+      <File FileName="DAL/Abstract/IAboutDal.cs" Line="6" Column="52" />
+      <File FileName="DAL/Concrete/Context.cs" Line="1" Column="1" />
+      <File FileName="DAL/Abstract/IContactDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/Abstract/ICommentaDal.cs" Line="8" Column="55" />
+      <File FileName="DataEntities/Concrete/CommentModel.cs" Line="6" Column="18" />
+      <File FileName="Business/Abstract/ICommentaService.cs" Line="10" Column="1" />
+      <File FileName="DAL/Abstract/IFeatureDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/Abstract/IGenericDal.cs" Line="16" Column="9" />
+      <File FileName="DAL/Abstract/IMainFocusDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/EntityFramework/EfPropertyDal.cs" Line="1" Column="1" />
+      <File FileName="DAL/EntityFramework/EfTestimonialDal.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QuorterBackEnd" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="CommentaManager.cs" selected="True" />
+              </Node>
+            </Node>
             <Node name="DAL" expanded="True">
+              <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
+              <Node name="EntityFramework" expanded="True" />
+              <Node name="Repository" expanded="True" />
             </Node>
             <Node name="DataEntities" expanded="True">
               <Node name="Concrete" expanded="True" />
             </Node>
             <Node name="QuorterBackEnd" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="ViewComponents" expanded="True">
-                <Node name="Default" expanded="True" />
+                <Node name="Commenta" expanded="True" />
               </Node>
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="_AddCommenta" expanded="True" />
+                    <Node name="_CommentaList" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Shop" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
