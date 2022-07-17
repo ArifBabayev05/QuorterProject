@@ -615,9 +615,9 @@
                         </div>
                         <hr>
                         <!-- comment-area -->
-                        @await Component.InvokeAsync("_CommentaList")
+                        @await Component.InvokeAsync("_CommentaList", new {id = ViewBag.i})
                         <!-- comment-reply -->
-                        @await Component.InvokeAsync("_AddCommenta")
+                        @await Html.PartialAsync("~/Views/Comment/Index.cshtml")
                     </div>
 
                     <h4 class="title-2">Related Properties</h4>

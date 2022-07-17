@@ -1,7 +1,9 @@
 ﻿using System;
+using DataEntities.Concrete;
+
 namespace DAL.Abstract
 {
-	public interface ICommentaDal
+	public interface ICommentaDal : IGenericDal<CommentModel>
 	{
 	}
 }

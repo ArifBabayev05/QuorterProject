@@ -27,6 +27,7 @@
     <None Remove="ViewComponents\Commenta\" />
     <None Remove="Views\Shared\Components\_CommentaList\" />
     <None Remove="Views\Shared\Components\_AddCommenta\" />
+    <None Remove="Views\Comment\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -51,6 +52,7 @@
     <Folder Include="ViewComponents\Commenta\" />
     <Folder Include="Views\Shared\Components\_CommentaList\" />
     <Folder Include="Views\Shared\Components\_AddCommenta\" />
+    <Folder Include="Views\Comment\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
