@@ -184,7 +184,9 @@
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/LayoutPartial/_ModalPartial.cshtml.g.cs
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/LayoutPartial/_NavbarPartial.cshtml.g.cs
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/LayoutPartial/_ScriptPartial.cshtml.g.cs
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_AddCommenta/Default.cshtml.g.cs
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_BrandLogoPartial/Default.cshtml.g.cs
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_CommentaList/Default.cshtml.g.cs
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_CounterPartial/Default.cshtml.g.cs
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_ExplorePartial/Default.cshtml.g.cs
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_FeaturePartial/Default.cshtml.g.cs

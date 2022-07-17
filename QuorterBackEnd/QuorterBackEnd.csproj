@@ -24,6 +24,9 @@
     <None Remove="Views\Shared\Components\_UtilitizeMobile\" />
     <None Remove="Views\Shared\Components\_CounterPartial\" />
     <None Remove="Views\Shop\" />
+    <None Remove="ViewComponents\Commenta\" />
+    <None Remove="Views\Shared\Components\_CommentaList\" />
+    <None Remove="Views\Shared\Components\_AddCommenta\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -45,6 +48,9 @@
     <Folder Include="Views\Shared\Components\_UtilitizeMobile\" />
     <Folder Include="Views\Shared\Components\_CounterPartial\" />
     <Folder Include="Views\Shop\" />
+    <Folder Include="ViewComponents\Commenta\" />
+    <Folder Include="Views\Shared\Components\_CommentaList\" />
+    <Folder Include="Views\Shared\Components\_AddCommenta\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
