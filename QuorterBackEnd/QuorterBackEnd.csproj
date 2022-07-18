@@ -29,6 +29,7 @@
     <None Remove="Views\Comment\" />
     <None Remove="Microsoft.AspNetCore.Identity" />
     <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -53,6 +54,7 @@
     <Folder Include="ViewComponents\Commenta\" />
     <Folder Include="Views\Shared\Components\_CommentaList\" />
     <Folder Include="Views\Comment\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
