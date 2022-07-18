@@ -219,3 +219,5 @@
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
 /Users/babayev_/Desktop/Quorter/QuorterBackEnd/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Login/SignIn.cshtml.g.cs
+/Users/babayev_/Desktop/Quorter/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Login/SignUp.cshtml.g.cs
